@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f3;
+  text-align: center;
+}
+
+h1 {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}

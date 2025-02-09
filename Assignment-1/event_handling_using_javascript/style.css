@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+button {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 255, 132);
+  padding: 16px 32px;
+  font-size: 42px;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+#click{
+    font-size: 30px;
+    color: #0011ff;
+    font-family: 'Courier New', Courier, monospace;    
+    text-align: center;
+}
